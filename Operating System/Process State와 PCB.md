@@ -41,4 +41,17 @@ OS가 하는 역할 중 프로세스 관리는 가장 중요한 역할이라고 
 이때 진행하던 작업들을 모두 저장하지 않으면 다음에 자신에게 다시 CPU가 할당되어도 어떠한 작업을 해야하는지 알 수 없는 사태가 발생.</br>
 따라서 프로세스는 처리하던 작업의 내용들을 자신의 PCB에 저장하고, </br> 다음에 다시 작업을 수행할 때 PCB로부터 해당 정보들을 CPU로 가져와서 계속해서 하던 작업을 진행합니다.
 
-PCB는 각 프로세스마다 하나씩 존재하며 
+#### Process Management
+> CPU가 프로세스가 여러 개 일때 이들을 CPU 스케줄링을 통해 관리하는 것.
+CPU는 각 프로세스들이 누구인지 알아야 관리가 가능합니다. 각 프로세스의 특징을 갖고있는 것이 **Process Metadata**
+
+Process Metadata
+   - Process ID
+   - Process State
+   - Process Priority
+   - CPU Registers
+   - Owner
+   - CPU usage
+   - Memory Usage
+   
+이 메타데이터는 프로세스가 생성되면 PCB에 저장된다.
