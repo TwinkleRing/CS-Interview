@@ -9,6 +9,7 @@ OS가 하는 역할 중 프로세스 관리는 가장 중요한 역할이라고 
 ![image](https://user-images.githubusercontent.com/43642411/104544350-de3d1800-566a-11eb-8704-aaf4e4c56b0a.png)
 
 </br>
+
 #### 상태
 - New : 프로그램이 실행되어 메인 메모리에 할당된 상태. </br>
 - Ready : 메인 메모리에 할당된 프로그램이 초기화 작업을 통해 실행 준비를 모두 마치고 CPU가 할당되기를 기다리는 상태. </br>
@@ -17,6 +18,7 @@ OS가 하는 역할 중 프로세스 관리는 가장 중요한 역할이라고 
 - Terminated : 프로세스가 실행을 완료하여 종료될 때의 상태 </br>
 - Suspended Waiting : 프로세스가 대기 상태에서 주 기억 장치를 잃은 상태.
 - Suspended Ready : 프로세스가 기억장치를 제외한 다른 모든 필요한 자원들을 보유한 상태. </br>
+
 --- 
 
 ![image](http://itwiki.kr/images/e/e9/%ED%94%84%EB%A1%9C%EC%84%B8%EC%8A%A4_%EC%83%81%ED%83%9C%EC%A0%84%EC%9D%B4%EB%8F%84_%EC%83%81%EC%84%B8.png)
