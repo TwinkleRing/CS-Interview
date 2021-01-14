@@ -23,9 +23,8 @@
 
 </br>
 
-###동기화
-</br>
-프로세스 또는 스레드가 하나의 공유자원에 접근하는 순서를 정하여 Race Condition을 제거, 공유자원의 결과값의 일관성을 보장하는 것이다.
+### 동기화
+프로세스 또는 스레드가 하나의 공유자원에 접근하는 순서를 정하여 Race Condition을 제거하고 공유자원의 결과 값의 일관성을 보장하는 것이다.
 
 #### 임계 영역 
 
@@ -35,4 +34,5 @@
 
 
 
-(출처) [tech-interview-for-developer](https://github.com/gyoogle/tech-interview-for-developer)
+(출처) [tech-interview-for-developer](https://github.com/gyoogle/tech-interview-for-developer) , https://parksb.github.io/article/10.html
+
