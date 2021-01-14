@@ -23,7 +23,7 @@ OS가 하는 역할 중 프로세스 관리는 가장 중요한 역할이라고 
 ![image](http://itwiki.kr/images/e/e9/%ED%94%84%EB%A1%9C%EC%84%B8%EC%8A%A4_%EC%83%81%ED%83%9C%EC%A0%84%EC%9D%B4%EB%8F%84_%EC%83%81%EC%84%B8.png)
 
 #### 상태 전이
-- Time Run out : 해당 프로세스가 작업을 완료하기전에 할당된 CPU 시간을 모두 소모하여 인터럽트에 의해 강제로 Ready로 변하고 CPU는 다른 프로세스를 실행시킨다.</br>
+- Time Run out : 해당 프로세스가 작업을 완료하기전에 할당된 CPU 시간을 모두 소모하여 인터럽트에 의해 강제로 Ready로 변하고 <br>CPU는 다른 프로세스를 실행시킨다.</br>
 - Dispatch : Ready 상태의 프로세스 중에 하나를 우선순위에 따라 CPU를 할당하여 Running 상태로 전이된다. </br>
 - Wake up : I/O 작업이 완료되어 Waiting 상태에서 Ready 상태로 전이되는 과정
 - Block : 프로세스가 실행되는 중 I/O(입출력)이나 자원 등을 기다리기 위해 대기로 전환.
