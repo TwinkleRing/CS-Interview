@@ -16,7 +16,7 @@ OS가 하는 역할 중 프로세스 관리는 가장 중요한 역할이라고 
 - Waiting : I/O 이벤트가 발생하여 실행중인 프로세스가 중단되고 I/O 처리가 완료될 때까지 대기하는 상태  </br>
 - Terminated : 프로세스가 실행을 완료하여 종료될 때의 상태 </br>
 - Suspended Waiting : 프로세스가 대기 상태에서 주 기억 장치를 잃은 상태.
-- Suspended Ready : 프로세스가 기억장치를 제외한 다른 모든 필요한 자원들을 보유한 상태.
+- Suspended Ready : 프로세스가 기억장치를 제외한 다른 모든 필요한 자원들을 보유한 상태. </br>
 
 ![image](http://itwiki.kr/images/e/e9/%ED%94%84%EB%A1%9C%EC%84%B8%EC%8A%A4_%EC%83%81%ED%83%9C%EC%A0%84%EC%9D%B4%EB%8F%84_%EC%83%81%EC%84%B8.png)
 
