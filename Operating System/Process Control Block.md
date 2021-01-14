@@ -23,3 +23,6 @@ CPU는 각 프로세스들이 누구인지 알아야 관리가 가능합니다. 
 프로세스는 작업을 처리하다가도 상태가 전이되면 작업 내용들을 모두 정리하고 CPU를 반납해야한다. </br>
 이때 진행하던 작업들을 모두 저장하지 않으면 다음에 자신에게 다시 CPU가 할당되어도 어떠한 작업을 해야하는지 알 수 없는 사태가 발생.</br>
 따라서 프로세스는 처리하던 작업의 내용들을 자신의 PCB에 저장하고, </br> 다음에 다시 작업을 수행할 때 PCB로부터 해당 정보들을 CPU로 가져와서 계속해서 하던 작업을 진행합니다.
+
+
+![image](https://3.bp.blogspot.com/-GWru8c5JVF8/WvNAuURo5wI/AAAAAAAAATg/7eZ8FGgQTqke7jTCDRQX4eY22nCQsQv1QCLcBGAs/s1600/PCB.PNG)
