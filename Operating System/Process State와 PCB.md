@@ -8,7 +8,6 @@ OS가 하는 역할 중 프로세스 관리는 가장 중요한 역할이라고 
 
 ![image](https://user-images.githubusercontent.com/43642411/104544350-de3d1800-566a-11eb-8704-aaf4e4c56b0a.png)
 
-</br>
 
 #### 상태
 - New : 프로그램이 실행되어 메인 메모리에 할당된 상태. </br>
