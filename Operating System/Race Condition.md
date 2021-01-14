@@ -33,4 +33,4 @@
 
 
 
-출처 : [tech-interview-for-developer](https://github.com/gyoogle/tech-interview-for-developer)
+출처> [tech-interview-for-developer](https://github.com/gyoogle/tech-interview-for-developer)
