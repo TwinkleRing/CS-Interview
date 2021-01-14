@@ -43,7 +43,7 @@ OS가 하는 역할 중 프로세스 관리는 가장 중요한 역할이라고 
 
 #### Process Management
 > CPU가 프로세스가 여러 개 일때 이들을 CPU 스케줄링을 통해 관리하는 것.
-CPU는 각 프로세스들이 누구인지 알아야 관리가 가능합니다. 각 프로세스의 특징을 갖고있는 것이 **Process Metadata**
+CPU는 각 프로세스들이 누구인지 알아야 관리가 가능합니다. </br>각 프로세스의 특징을 갖고있는 것이 **Process Metadata**
 
 Process Metadata
    - Process ID
