@@ -3,7 +3,7 @@
 ### 메모리 계층 구조
 
 
-메모리 계층 구조란 CPU가 메모리에 더 빨리 접근하기 위해 계층 구조로 나누어 둔 것을 의미한다.
+메모리 계층 구조란 CPU가 메모리에 더 빨리 접근하기 위해 계층 구조로 나누어 둔 것을 의미한다. </br>
 ![image](https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/%EB%A9%94%EB%AA%A8%EB%A6%AC%EA%B3%84%EC%B8%B5%EA%B5%AC%EC%A1%B0%EA%B7%B8%EB%A6%BC1.png/330px-%EB%A9%94%EB%AA%A8%EB%A6%AC%EA%B3%84%EC%B8%B5%EA%B5%AC%EC%A1%B0%EA%B7%B8%EB%A6%BC1.png)
 
 레지스터와 캐시는 CPU 내부에 존재하기 때문에 CPU가 아주 빠르게 접근 할 수 있다.
