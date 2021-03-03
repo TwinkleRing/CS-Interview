@@ -2,7 +2,7 @@
 #### JOIN은 데이터베이스 내의 여러 테이블에서 가져온 레코드를 조합하여 하나의 테이블이나 결과 집합으로 표현해 줍니다.</br>
 #### 이러한 JOIN은 보통 SELECT문과 함께 자주 사용됩니다.
 
-> 1. INNER JOIN
+1. INNER JOIN
 2. LEFT JOIN
 3. RIGHT JOIN
 
