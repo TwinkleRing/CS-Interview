@@ -18,7 +18,16 @@ FROM RESERVATION
 ON RESERVATION.NAME = CUSTOMER.NAME;
 ```
 
+```mysql
+SELECT *
+FROM RESERVATION, CUSTOMER
+WHERE RESERVATION.NAME = CUSTOMER.NAME;
+```
 #### 실행결과
 </br>
-
 ![JOIN](https://user-images.githubusercontent.com/43642411/109752440-beb27c80-7c23-11eb-8c80-0aa923fa1b3c.PNG)
+
+### LEFT JOIN
+LEFT JOIN은 첫번째 테이블을 기준으로, 두번째 테이블을 조합하는 JOIN 입니다.
+이때 ON 절의 조건을 만족하지 않는 경우에는 첫 번째 테이블의 필드 값을 그대로 가져옵니다.
+하지만 해당 레코드의 ** 두 번째 테이블의 필드 값을 모두 NULL로 표시됩니다. **
