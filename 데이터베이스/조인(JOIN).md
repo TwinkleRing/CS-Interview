@@ -25,8 +25,7 @@ WHERE RESERVATION.NAME = CUSTOMER.NAME;
 ```
 #### 실행결과
 </br>
-
-![JOIN](https://user-images.githubusercontent.com/43642411/109752440-beb27c80-7c23-11eb-8c80-0aa923fa1b3c.PNG)
+![JOIN](https://user-images.githubusercontent.com/43642411/109753268-4ea4f600-7c25-11eb-8e0a-d6eba1afaece.PNG)
 
 ### LEFT JOIN
 LEFT JOIN은 첫번째 테이블을 기준으로, 두번째 테이블을 조합하는 JOIN 입니다.
