@@ -31,4 +31,19 @@ WHERE RESERVATION.NAME = CUSTOMER.NAME;
 ### LEFT JOIN
 LEFT JOIN은 첫번째 테이블을 기준으로, 두번째 테이블을 조합하는 JOIN 입니다.
 이때 ON 절의 조건을 만족하지 않는 경우에는 첫 번째 테이블의 필드 값을 그대로 가져옵니다.
-하지만 해당 레코드의 ## 두 번째 테이블의 필드 값을 모두 NULL로 표시됩니다.##
+하지만 해당 레코드의 **두 번째 테이블의 필드 값을 모두 NULL로 표시됩니다.**
+
+#### 예제
+* Reservation 테이블의 Name 필드를 기준으로 Customer 테이블의 Name 필드와 일치하는 레코드만을 LEFT JOIN 으로 가져온 후,</br>
+* 그 중에서 ReserveDate 필드의 값이 2016년 02월 01일 이후인 레코드만을 선택하는 예제 </br>
+
+```mysql
+SELECT *
+FROM RESERVATION
+LEFT JOIN CUSTOMER
+ON RESERVATION.NAME = CUSTOMER.NAME
+WHERE RESERVEDATE > '2021-02-01';
+```
+
+#### 벤 다이어그램으로 나타낸 LEFT JOIN의 결과
+![img_mysql_left_join](https://user-images.githubusercontent.com/43642411/109753157-14d3ef80-7c25-11eb-82e2-bc03f00f5478.png)
