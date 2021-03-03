@@ -46,4 +46,6 @@ WHERE RESERVEDATE > '2021-02-01';
 ```
 
 #### 벤 다이어그램으로 나타낸 LEFT JOIN의 결과
-![img_mysql_left_join](https://user-images.githubusercontent.com/43642411/109753157-14d3ef80-7c25-11eb-82e2-bc03f00f5478.png)
+
+![img_mysql_left_join](https://user-images.githubusercontent.com/43642411/109753200-2d440a00-7c25-11eb-9cf0-fafc80c07956.png)
+
