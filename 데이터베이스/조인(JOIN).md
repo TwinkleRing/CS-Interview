@@ -24,7 +24,7 @@ FROM RESERVATION, CUSTOMER
 WHERE RESERVATION.NAME = CUSTOMER.NAME;
 ```
 #### 실행결과
-</br>
+
 ![JOIN](https://user-images.githubusercontent.com/43642411/109753268-4ea4f600-7c25-11eb-8e0a-d6eba1afaece.PNG)
 
 ### LEFT JOIN
