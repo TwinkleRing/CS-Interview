@@ -27,6 +27,8 @@ WHERE RESERVATION.NAME = CUSTOMER.NAME;
 
 ![JOIN](https://user-images.githubusercontent.com/43642411/109753268-4ea4f600-7c25-11eb-8e0a-d6eba1afaece.PNG)
 
+---
+
 ### LEFT JOIN
 LEFT JOIN은 첫번째 테이블을 기준으로, 두번째 테이블을 조합하는 JOIN 입니다.
 이때 ON 절의 조건을 만족하지 않는 경우에는 첫 번째 테이블의 필드 값을 그대로 가져옵니다.
