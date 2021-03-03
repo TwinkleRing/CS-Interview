@@ -8,7 +8,7 @@
 
 ### JOIN(INNER JOIN, CROSS JOIN)
 
-> 예제
+#### 예제
 * Reservation 테이블의 Name 필드와 Customer 테이블의 Name 필드가 서로 일치하는 레코드만을 INNER JOIN으로 가져오기.</br>
 
 ```mysql
