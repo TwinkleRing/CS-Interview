@@ -18,5 +18,6 @@ FROM RESERVATION
 ON RESERVATION.NAME = CUSTOMER.NAME;
 ```
 
-실행결과
+#### 실행결과
+</br>
 ![JOIN](https://user-images.githubusercontent.com/43642411/109752440-beb27c80-7c23-11eb-8c80-0aa923fa1b3c.PNG)
