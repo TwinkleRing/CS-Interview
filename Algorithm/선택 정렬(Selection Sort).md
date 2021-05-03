@@ -63,7 +63,6 @@ int main(void){
 }
 ```
 
-![image](https://user-images.githubusercontent.com/43642411/116844154-3c433a80-ac1d-11eb-8d42-c20d5c0be4f3.png)
 ## 시간 복잡도
 
 * 배열의 요소가 N개라고 가정해봅니다. </br> 우선 첫번째 자리에 올 요소를 찾기 위해 N개의 요소를 검사합니다.
@@ -72,7 +71,9 @@ int main(void){
 
 ## 공간 복잡도
 
-* 주어진 배열 안에서 교환을 통해, 정렬이 수행되므로 O(n) 입니다. 
-* -> 제자리 정렬(in-place sorting)
+* 주어진 배열 안에서 교환(Swap)을 통한 제자리 정렬(in-place sorting)이므로 **O(n)** 입니다. 
 
+
+
+![image](https://user-images.githubusercontent.com/43642411/116844154-3c433a80-ac1d-11eb-8d42-c20d5c0be4f3.png)
 
