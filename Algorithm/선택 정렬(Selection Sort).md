@@ -75,5 +75,5 @@ int main(void){
 
 
 
-![image](https://user-images.githubusercontent.com/43642411/116844154-3c433a80-ac1d-11eb-8d42-c20d5c0be4f3.gif)
+![image](https://github.com/GimunLee/tech-refrigerator/blob/master/Algorithm/resources/selection-sort-001.gif?raw=true)
 
