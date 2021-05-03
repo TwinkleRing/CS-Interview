@@ -14,7 +14,6 @@
 
 ## C++ Code(Ascending)
 ```C++
-//Selection Sort
  
 #include<iostream>
 using namespace std;
@@ -26,13 +25,13 @@ void Swap(int &a, int &b){
     b = tmp;
 }
  
-void SelectionSort(int *arr, int len){
+void Selection_Sort(int *arr, int len){
  
     int min_idx;
-    for(int i=0; i<len-1; i++){
+    for(int i = 0; i < len - 1; i++){
         min_idx = i;
  
-        for(int j=i+1; j<len; j++){
+        for(int j = i + 1; j < len; j++){
             if(arr[min_idx] > arr[j]){
                 min_idx = j;
             }
@@ -44,18 +43,18 @@ void SelectionSort(int *arr, int len){
  
 int main(void){
  
-    int arr[5] = {3, 5, 1, 2, 4};
+    int arr[5] = {8, 50, 34, 18, 29};
     int len = 5;
  
-    for(int i=0; i<len; i++){
+    for(int i = 0; i < len; i++){
         cout << arr[i] << " ";
     }
     cout << endl;
  
  
-    SelectionSort(arr, len);
+    Selection_Sort(arr, len);
  
-    for(int i=0; i<len; i++){
+    for(int i = 0; i < len; i++){
         cout << arr[i] << " ";
     }
  
