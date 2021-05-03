@@ -63,7 +63,7 @@ int main(void){
 }
 ```
 
-https://github.com/GimunLee/tech-refrigerator/blob/master/Algorithm/resources/selection-sort-001.gif?raw=true
+!(https://github.com/GimunLee/tech-refrigerator/blob/master/Algorithm/resources/selection-sort-001.gif?raw=true)
 ## 시간복잡도
 
 * 배열의 요소가 N개라고 가정해봅니다. </br> 우선 첫번째 자리에 올 요소를 찾기 위해 N개의 요소를 검사합니다.
