@@ -73,6 +73,7 @@ int main(void){
 
 * 주어진 배열 안에서 교환(Swap)을 통한 제자리 정렬(in-place sorting)이므로 **O(n)** 입니다. 
 
+</br>
 
 
 ![image](https://github.com/GimunLee/tech-refrigerator/blob/master/Algorithm/resources/selection-sort-001.gif?raw=true)
