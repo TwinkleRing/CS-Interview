@@ -25,6 +25,6 @@
 이러한 태그들의 묶음을 **캐싱 라인**이라고 하고 메모리로부터 가져올 때도 캐싱 라인을 기준으로 가져온다.</br>
 
 ### Caching Line의 종류
-** Full Associative
-** Set Associative
-** Direct Map
+* Full Associative
+* Set Associative
+* Direct Map
