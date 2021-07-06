@@ -1,5 +1,7 @@
 # JAVA 기술 면접 정리
 
+![image](https://user-images.githubusercontent.com/43642411/124565012-94e0bf00-de7c-11eb-9671-987250ca02f5.png)
+
 
 ### 1. JAVA
 - Java란 썬 마이크로시스템즈에서 개발한 객체 지향 프로그래밍 언어이다.
