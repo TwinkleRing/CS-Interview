@@ -1,6 +1,6 @@
 # JAVA 기술 면접 정리
 
-![image](https://user-images.githubusercontent.com/43642411/124565012-94e0bf00-de7c-11eb-9671-987250ca02f5.png)
+![image](https://user-images.githubusercontent.com/43642411/124565122-a924bc00-de7c-11eb-869e-ced546b38355.png)
 
 
 ### 1. JAVA
